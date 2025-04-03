@@ -40,12 +40,12 @@ dependencies {
 
     // Retrofit
     implementation(libs.retrofit)
-    implementation(libs.converter.gson)  // Sử dụng GSON converter
+    implementation(libs.converter.gson)  // S? d?ng GSON converter
 
-    // OkHttp (tùy chọn)
+    // OkHttp (t�y ch?n)
     implementation(libs.okhttp)
 
-    // Glide (hiển thị ảnh)
+    // Glide (hi?n th? ?nh)
     implementation("com.github.bumptech.glide:glide:4.15.1")
     annotationProcessor("com.github.bumptech.glide:compiler:4.15.1")
 
@@ -53,7 +53,9 @@ dependencies {
     testImplementation(libs.junit)
     androidTestImplementation(libs.ext.junit)
     androidTestImplementation(libs.espresso.core)
+    implementation ("androidx.recyclerview:recyclerview:1.3.2")
+    implementation ("com.github.bumptech.glide:glide:4.16.0")
 
-    // Volley (tùy chọn nếu dùng API khác)
+    // Volley (t�y ch?n n?u d�ng API kh�c)
     implementation("com.android.volley:volley:1.2.1")
 }

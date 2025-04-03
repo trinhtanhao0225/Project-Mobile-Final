@@ -8,7 +8,6 @@
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_weight="1"
         android:fillViewport="true">
 
         <LinearLayout
@@ -18,7 +17,32 @@
             android:padding="16dp">
 
             <!-- Header -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:paddingBottom="10dp">
 
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Hi Hậu"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:textColor="#FF5733"/>
+
+                <Space
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"/>
+
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:src="@drawable/ic_profile"
+                    android:background="?attr/selectableItemBackgroundBorderless"/>
+            </LinearLayout>
 
             <!-- Thanh tìm kiếm -->
             <LinearLayout
@@ -26,6 +50,7 @@
                 android:layout_height="50dp"
                 android:orientation="horizontal"
                 android:paddingHorizontal="12dp"
+                android:background="@drawable/bg_search"
                 android:gravity="center_vertical"
                 android:layout_marginBottom="10dp">
 
@@ -34,16 +59,14 @@
                     android:layout_height="24dp"
                     android:src="@drawable/ic_search"/>
 
-
                 <EditText
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:hint="Search"
-                    android:textSize="26sp"
+                    android:textSize="16sp"
                     android:paddingLeft="10dp"/>
             </LinearLayout>
-
 
             <!-- Categories -->
             <TextView
@@ -118,13 +141,35 @@
             </HorizontalScrollView>
 
             <!-- New Products -->
-            <TextView
-                android:layout_width="wrap_content"
+            <LinearLayout
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="New Products"
-                android:textColor="#000000"
-                android:textStyle="bold"
-                android:textSize="16sp"/>
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:paddingBottom="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="New Products"
+                    android:textColor="#000000"
+                    android:textStyle="bold"
+                    android:textSize="16sp"/>
+
+                <Space
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="See All"
+                    android:textColor="#007AFF"
+                    android:textSize="14sp"
+                    android:textStyle="bold"
+                    android:padding="5dp"/>
+            </LinearLayout>
 
             <androidx.recyclerview.widget.RecyclerView
                 android:id="@+id/recyclerNewProducts"
@@ -134,12 +179,34 @@
                 android:nestedScrollingEnabled="false"/>
 
             <!-- Best Sellers -->
-            <TextView
-                android:layout_width="wrap_content"
+            <LinearLayout
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Best Sellers"
-                android:textStyle="bold"
-                android:textSize="16sp"/>
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:paddingBottom="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Best Sellers"
+                    android:textStyle="bold"
+                    android:textSize="16sp"/>
+
+                <Space
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="See All"
+                    android:textColor="#007AFF"
+                    android:textSize="14sp"
+                    android:textStyle="bold"
+                    android:padding="5dp"/>
+            </LinearLayout>
 
             <androidx.recyclerview.widget.RecyclerView
                 android:id="@+id/recyclerBestSellers"
@@ -149,129 +216,4 @@
 
         </LinearLayout>
     </ScrollView>
-
-    <!-- thanh navigation -->
-    <androidx.coordinatorlayout.widget.CoordinatorLayout
-        android:id="@+id/bottom_bar"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="0dp"
-        android:clipChildren="false"
-        android:clipToPadding="false"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent">
-
-        <com.google.android.material.bottomappbar.BottomAppBar
-            android:id="@+id/app_bar"
-            android:layout_width="match_parent"
-            android:layout_height="67dp"
-            android:layout_gravity="bottom"
-            android:backgroundTint="@color/white"
-            app:fabAlignmentMode="center"
-            app:fabCradleMargin="10dp"
-            app:fabCradleRoundedCornerRadius="35dp"
-            app:fabCradleVerticalOffset="10dp"
-            app:elevation="10dp">
-
-            <!-- LinearLayout chứa 4 nút layout_fragment -->
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:orientation="horizontal"
-                android:gravity="center"
-                android:paddingBottom="10dp"
-                android:weightSum="4">
-
-                <!-- Home -->
-                <LinearLayout
-                    android:id="@+id/nav_home"
-                    android:layout_width="0dp"
-                    android:layout_height="match_parent"
-                    android:layout_weight="1"
-                    android:gravity="center"
-                    android:orientation="vertical">
-
-                    <ImageView
-                        android:layout_width="24dp"
-                        android:layout_height="24dp"
-                        android:src="@drawable/ic_home"/>
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="Home"
-                        android:textColor="#676767"
-                        android:textSize="12sp" />
-                </LinearLayout>
-
-                <!-- Profile -->
-                <LinearLayout
-                    android:id="@+id/nav_cart"
-                    android:layout_width="0dp"
-                    android:layout_height="match_parent"
-                    android:layout_weight="1"
-                    android:gravity="center"
-                    android:orientation="vertical">
-
-                    <ImageView
-                        android:layout_width="24dp"
-                        android:layout_height="24dp"
-                        android:src="@drawable/ic_cart"/>
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="Cart"
-                        android:textColor="#676767"
-                        android:textSize="12sp" />
-                </LinearLayout>
-
-                <!-- Support -->
-                <LinearLayout
-                    android:id="@+id/nav_orders"
-                    android:layout_width="0dp"
-                    android:layout_height="match_parent"
-                    android:layout_weight="1"
-                    android:gravity="center"
-                    android:orientation="vertical">
-
-                    <ImageView
-                        android:layout_width="24dp"
-                        android:layout_height="24dp"
-                        android:src="@drawable/ic_orders"/>
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="Orders"
-                        android:textColor="#676767"
-                        android:textSize="12sp" />
-                </LinearLayout>
-
-                <LinearLayout
-                    android:id="@+id/nav_profile"
-                    android:layout_width="0dp"
-                    android:layout_height="match_parent"
-                    android:layout_weight="1"
-                    android:gravity="center"
-                    android:orientation="vertical">
-
-                    <ImageView
-                        android:layout_width="24dp"
-                        android:layout_height="24dp"
-                        android:src="@drawable/ic_profile"/>
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="Profile"
-                        android:textColor="#676767"
-                        android:textSize="12sp" />
-                </LinearLayout>
-            </LinearLayout>
-        </com.google.android.material.bottomappbar.BottomAppBar>
-    </androidx.coordinatorlayout.widget.CoordinatorLayout>
-
-
 </LinearLayout>

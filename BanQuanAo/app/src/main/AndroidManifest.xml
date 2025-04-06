@@ -27,10 +27,17 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-     <!--   <activity android:name=".LoginActivity" /> -->
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".AllItemsActivity" />
+
         <activity android:name=".RegisterActivity" />
         <activity android:name=".OtpActivity" />
         <activity android:name=".MainActivity" />
+        <activity android:name=".AddDepotActivity" />
+
+        <!--        <activity android:name=".CartActivity"/>-->
+<!--        <activity android:name=".OrdersActivity"/>-->
+<!--        <activity android:name=".ProfileActivity"/>-->
 
 
 

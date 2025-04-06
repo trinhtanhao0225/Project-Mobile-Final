@@ -20,7 +20,7 @@
         android:theme="@style/Theme.BanQuanAo"
         tools:targetApi="31">
         <activity
-            android:name=".LoginActivity"
+            android:name=".MainActivityAdmin"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -28,13 +28,17 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-<!--        <activity android:name=".LoginActivity" />-->
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".AllItemsActivity" />
+
         <activity android:name=".RegisterActivity" />
         <activity android:name=".OtpActivity" />
         <activity android:name=".MainActivity" />
-        <activity android:name=".CartActivity"/>
-        <activity android:name=".OrdersActivity"/>
-        <activity android:name=".ProfileActivity"/>
+        <activity android:name=".AddDepotActivity" />
+
+        <!--        <activity android:name=".CartActivity"/>-->
+<!--        <activity android:name=".OrdersActivity"/>-->
+<!--        <activity android:name=".ProfileActivity"/>-->
 
 
 

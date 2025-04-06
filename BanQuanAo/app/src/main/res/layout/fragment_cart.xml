@@ -59,15 +59,6 @@
                 android:padding="4dp">
 
                 <!-- Nút giảm số lượng -->
-                <Button
-                    android:id="@+id/btnDecrease"
-                    android:layout_width="40dp"
-                    android:layout_height="40dp"
-                    android:text="-"
-                    android:textSize="18sp"
-                    android:textColor="@android:color/black"
-                    android:layout_marginEnd="4dp"
-                    android:backgroundTint="@android:color/btn_border_black"/>
 
                 <!-- Số lượng -->
                 <TextView

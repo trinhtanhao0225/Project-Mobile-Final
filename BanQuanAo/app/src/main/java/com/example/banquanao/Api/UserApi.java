@@ -15,7 +15,8 @@ public interface UserApi {
 
     @POST("/register")
     Call<ApiResponse> register(@Body RegisterDto registerDto);
-
+    @POST("/login")
+    Call<ApiResponse> login(@Body RegisterDto registerDto);
     @POST("/verify")
     Call<Map<String, String>> verifyOtp(@Query("email") String email, @Query("otp") String otp);
 

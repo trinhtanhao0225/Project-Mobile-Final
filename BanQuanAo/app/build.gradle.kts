@@ -33,6 +33,7 @@ android {
 }
 
 dependencies {
+    implementation ("com.google.android.material:material:1.9.0")
     implementation(libs.appcompat)
     implementation(libs.material)
     implementation(libs.activity)
@@ -42,7 +43,7 @@ dependencies {
     implementation(libs.retrofit)
     implementation(libs.converter.gson)  // S? d?ng GSON converter
 
-    // OkHttp (tùy ch?n)
+    // OkHttp (tï¿½y ch?n)
     implementation(libs.okhttp)
 
     // Glide (hi?n th? ?nh)
@@ -56,6 +57,9 @@ dependencies {
     implementation ("androidx.recyclerview:recyclerview:1.3.2")
     implementation ("com.github.bumptech.glide:glide:4.16.0")
 
-    // Volley (tùy ch?n n?u dùng API khác)
+    // Volley (tï¿½y ch?n n?u dï¿½ng API khï¿½c)
     implementation("com.android.volley:volley:1.2.1")
+    implementation ("com.squareup.retrofit2:retrofit:2.9.0")
+    implementation ("com.squareup.retrofit2:converter-gson:2.9.0")
+    implementation ("com.squareup.okhttp3:okhttp:4.9.3")
 }

@@ -45,7 +45,6 @@ public class AddDepotActivity extends AppCompatActivity {
     private Spinner typeSpinner;
     private EditText depotNameEditText;
     private EditText priceEditText;
-    private EditText discountEditText; // Chưa có trong layout bạn gửi, cần thêm vào XML nếu dùng
     private EditText importDateEditText;
     private EditText descriptionEditText;
     private ImageView depotImageView;
@@ -60,6 +59,7 @@ public class AddDepotActivity extends AppCompatActivity {
     private List<Type> typeList;
     private Integer selectedTypeId;
     private int depotId = -1; // Để xác định edit hay add new
+    private ArrayAdapter<Type> typeAdapter;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -70,7 +70,6 @@ public class AddDepotActivity extends AppCompatActivity {
         typeSpinner = findViewById(R.id.typeSpinner);
         depotNameEditText = findViewById(R.id.depotNameEditText);
         priceEditText = findViewById(R.id.priceEditText);
-        // discountEditText = findViewById(R.id.discountEditText); // Thêm vào layout nếu cần
         importDateEditText = findViewById(R.id.importDateEditText);
         descriptionEditText = findViewById(R.id.descriptionEditText);
         depotImageView = findViewById(R.id.depotImageView);
@@ -84,22 +83,8 @@ public class AddDepotActivity extends AppCompatActivity {
         colorSizeQuantityList = new ArrayList<>();
         typeList = new ArrayList<>();
 
-        // Nhận dữ liệu từ Intent
-        Intent intent = getIntent();
-        if (intent != null && intent.hasExtra("depot_id")) {
-            depotId = intent.getIntExtra("depot_id", -1);
-            Depot depot = (Depot) intent.getSerializableExtra("depot");
-            if (depot != null) {
-                fillDepotData(depot); // Điền dữ liệu Depot nếu có
-                loadColorQuantitiesFromDepot(depot);
-            }
-        }
-
-        // Load danh sách Type từ API
-        loadTypes();
-
         // Thiết lập Spinner cho Type
-        ArrayAdapter<Type> typeAdapter = new ArrayAdapter<>(
+        typeAdapter = new ArrayAdapter<>(
                 this,
                 android.R.layout.simple_spinner_item,
                 typeList
@@ -118,10 +103,19 @@ public class AddDepotActivity extends AppCompatActivity {
             }
         });
 
-        // Load ColorQuantity nếu là edit
-        if (depotId != -1) {
-
+        // Nhận dữ liệu từ Intent
+        Intent intent = getIntent();
+        if (intent != null && intent.hasExtra("depot_id")) {
+            depotId = intent.getIntExtra("depot_id", -1);
+            Depot depot = (Depot) intent.getSerializableExtra("depot");
+            if (depot != null) {
+                fillDepotData(depot); // Điền dữ liệu Depot nếu có
+                loadColorQuantitiesFromDepot(depot);
+            }
         }
+
+        // Load danh sách Type từ API
+        loadTypes();
 
         // Xử lý nút Back
         backButton.setOnClickListener(v -> finish());
@@ -165,24 +159,23 @@ public class AddDepotActivity extends AppCompatActivity {
 
     private void loadTypes() {
         TypeApi apiService = ApiClient.getRetrofitInstance().create(TypeApi.class);
-        Call<List<Type>> call = apiService.getAllType(); // Giả sử API trả về danh sách Type theo JSON bạn cung cấp
+        Call<List<Type>> call = apiService.getAllType();
         call.enqueue(new Callback<List<Type>>() {
             @Override
             public void onResponse(@NonNull Call<List<Type>> call, @NonNull Response<List<Type>> response) {
                 if (response.isSuccessful() && response.body() != null) {
                     typeList.clear();
-                    typeList.addAll(response.body()); // Thêm danh sách Type từ API vào typeList
-                    ArrayAdapter<Type> adapter = (ArrayAdapter<Type>) typeSpinner.getAdapter();
-                    adapter.notifyDataSetChanged(); // Cập nhật Spinner với dữ liệu mới
+                    typeList.addAll(response.body());
+                    typeAdapter.notifyDataSetChanged(); // Cập nhật Spinner với dữ liệu mới
 
                     // Nếu đang chỉnh sửa Depot, chọn Type tương ứng
                     if (depotId != -1) {
-                        Intent intent = getIntent();
-                        Depot depot = (Depot) intent.getSerializableExtra("depot");
+                        Depot depot = (Depot) getIntent().getSerializableExtra("depot");
                         if (depot != null && depot.getType() != null) {
+                            int typeId = depot.getType().getId();
                             for (int i = 0; i < typeList.size(); i++) {
-                                if (typeList.get(i).getId() == depot.getType().getId()) {
-                                    typeSpinner.setSelection(i); // Chọn Type khớp với Depot
+                                if (typeList.get(i).getId() == typeId) {
+                                    typeSpinner.setSelection(i);
                                     selectedTypeId = typeList.get(i).getId();
                                     break;
                                 }
@@ -206,34 +199,21 @@ public class AddDepotActivity extends AppCompatActivity {
     }
 
     private void loadColorQuantitiesFromDepot(Depot depot) {
-        // Kiểm tra nếu Depot có danh sách stock
         if (depot.getStock() != null && !depot.getStock().isEmpty()) {
-            List<ColorQuantity> stock = depot.getStock();  // Lấy stock từ Depot
+            List<ColorQuantity> stock = depot.getStock();
             for (ColorQuantity cq : stock) {
-                addColorQuantityField(cq); // Hiển thị từng ColorQuantity trong UI
+                addColorQuantityField(cq);
             }
         } else {
             Toast.makeText(AddDepotActivity.this, "No color quantities available.", Toast.LENGTH_SHORT).show();
         }
     }
 
-
     private void fillDepotData(Depot depot) {
         depotNameEditText.setText(depot.getName());
         priceEditText.setText(String.valueOf(depot.getPrice()));
-        importDateEditText.setText(depot.getImportDate()); // Giả sử Depot có field này
+        importDateEditText.setText(depot.getImportDate());
         descriptionEditText.setText(depot.getDescription());
-        // Nếu Depot có image URL, bạn cần load nó (dùng Glide/Picasso)
-        // selectedImageUri = Uri.parse(depot.getImageUrl());
-        // depotImageView.setImageURI(selectedImageUri);
-
-        // Chọn Type trong Spinner
-        for (int i = 0; i < typeList.size(); i++) {
-            if (typeList.get(i).getId() == depot.getType().getId()) { // Giả sử Depot có typeId
-                typeSpinner.setSelection(i);
-                break;
-            }
-        }
     }
 
     private void addColorQuantityField(ColorQuantity cq) {
@@ -245,7 +225,6 @@ public class AddDepotActivity extends AppCompatActivity {
         EditText quantityEditText = colorQuantityView.findViewById(R.id.quantityEditText);
         ImageButton removeButton = colorQuantityView.findViewById(R.id.removeColorQuantityButton);
 
-        // Nếu có ColorQuantity (edit mode), điền dữ liệu
         if (cq != null) {
             colorEditText.setText(cq.getColor());
             sizeEditText.setText(cq.getSize());
@@ -262,7 +241,6 @@ public class AddDepotActivity extends AppCompatActivity {
         String importDate = importDateEditText.getText().toString().trim();
         String description = descriptionEditText.getText().toString().trim();
 
-        // Kiểm tra các trường bắt buộc
         if (name.isEmpty() || price.isEmpty() || importDate.isEmpty() || selectedTypeId == null) {
             Toast.makeText(this, "Please fill in all required fields", Toast.LENGTH_SHORT).show();
             return;
@@ -276,7 +254,6 @@ public class AddDepotActivity extends AppCompatActivity {
             return;
         }
 
-        // Lấy danh sách Color, Size, và Quantity
         colorSizeQuantityList.clear();
         for (int i = 0; i < colorQuantityContainer.getChildCount(); i++) {
             View view = colorQuantityContainer.getChildAt(i);
@@ -298,9 +275,8 @@ public class AddDepotActivity extends AppCompatActivity {
             return;
         }
 
-        // Tạo Intent để trả dữ liệu về Activity trước đó
         Intent resultIntent = new Intent();
-        resultIntent.putExtra("depotId", depotId); // Trả depotId để biết là edit hay add
+        resultIntent.putExtra("depotId", depotId);
         resultIntent.putExtra("typeId", selectedTypeId);
         resultIntent.putExtra("depotName", name);
         resultIntent.putExtra("price", priceValue);

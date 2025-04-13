@@ -68,8 +68,8 @@ public class MainActivityAdmin extends AppCompatActivity {
         btnProfile.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                // TODO: Thêm code để mở activity/fragment profile
-            }
+                Intent goToMenuItems = new Intent(MainActivityAdmin.this, PendingOrderActivity.class);
+                startActivity(goToMenuItems);            }
         });
 
         // Xử lý sự kiện click cho nút Create New User

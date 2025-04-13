@@ -26,4 +26,9 @@ public class Type implements Serializable {
     public void setName(String name) {
         this.name = name;
     }
+
+    @Override
+    public String toString() {
+        return name; // hoặc return bất kỳ thuộc tính nào bạn muốn hiển thị
+    }
 }

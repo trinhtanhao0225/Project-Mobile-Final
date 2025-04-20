@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:fillViewport="true"
+    android:clipChildren="false"
+    android:clipToPadding="false">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:clipChildren="false"
+        android:clipToPadding="false">
+
+        <!-- Header nền xanh -->
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:background="#00BFFF"
+            android:clipChildren="false"
+            android:clipToPadding="false">
+
+            <!-- Nút quay lại -->
+            <ImageButton
+                android:id="@+id/btnBack"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:src="@android:drawable/ic_menu_revert"
+                android:contentDescription="Back" />
+
+            <!-- Tiêu đề nằm giữa -->
+            <TextView
+                android:id="@+id/tvTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Edit Profile"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="#FFFFFF"
+                android:layout_gravity="center_horizontal|top"
+                android:layout_marginTop="16dp" />
+
+            <!-- Avatar chồng lên giữa -->
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/profile_image"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_gravity="center_horizontal|bottom"
+                android:layout_marginBottom="-60dp"
+                android:src="@drawable/ic_profile"
+                app:civ_border_width="0dp"
+                android:background="@android:color/transparent"
+                android:elevation="0dp" />
+
+        </FrameLayout>
+
+        <!-- Nội dung form -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="20dp"
+            android:gravity="center_horizontal"
+            android:clipChildren="false"
+            android:clipToPadding="false">
+
+            <!-- Change Picture -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Change Picture"
+                android:textColor="#888888"
+                android:layout_marginTop="70dp" />
+
+            <!-- Full Name -->
+            <EditText
+                android:id="@+id/edtFullName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Full Name"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/order_card_bg"
+                android:padding="10dp"
+                android:textStyle="bold"/>
+
+            <!-- Email -->
+            <EditText
+                android:id="@+id/edtEmail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Email"
+                android:inputType="textEmailAddress"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/order_card_bg"
+                android:padding="10dp"
+                android:textStyle="bold"/>
+
+            <!-- Phone -->
+            <EditText
+                android:id="@+id/edtPhone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Phone Number"
+                android:inputType="phone"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/order_card_bg"
+                android:padding="10dp"
+                android:textStyle="bold"/>
+
+            <!-- Address -->
+            <EditText
+                android:id="@+id/edtAddress"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Address"
+                android:inputType="textPostalAddress"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/order_card_bg"
+                android:padding="10dp"
+                android:textStyle="bold"/>
+
+            <!-- Update Button -->
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btnUpdate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Update"
+                android:backgroundTint="#00BFFF"
+                android:textColor="#FFFFFF"
+                android:layout_marginTop="20dp" />
+
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

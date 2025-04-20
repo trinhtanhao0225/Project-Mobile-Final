@@ -35,12 +35,13 @@
         <activity android:name=".OtpActivity" />
         <activity android:name=".MainActivity" />
         <activity android:name=".AddDepotActivity" />
-        <activity android:name=".HomeActivity"/>
+        <activity android:name=".EditProfileActivity" />
+        <activity android:name=".ActivityCheckoutSuccess" />
         <activity android:name=".PendingOrderActivity"/>
+        <activity android:name=".VoucherActivity" />
 
-        <!--        <activity android:name=".CartActivity"/>-->
-<!--        <activity android:name=".OrdersActivity"/>-->
-<!--        <activity android:name=".ProfileActivity"/>-->
+
+
 
 
 

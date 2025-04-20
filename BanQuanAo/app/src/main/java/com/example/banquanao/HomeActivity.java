@@ -1,5 +1,6 @@
 package com.example.banquanao;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 import android.widget.LinearLayout;
@@ -14,26 +15,49 @@ import com.example.banquanao.Fragment.ProfileFragment;
 
 public class HomeActivity extends AppCompatActivity {
 
-    private Fragment currentFragment; // Biến để kiểm tra Fragment hiện tại
+    private Fragment currentFragment;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home);
 
-        // Ánh xạ các LinearLayout điều hướng
+        // Khởi tạo các điều hướng
+        initNavigation();
+
+        // Xử lý intent từ activity khác gửi sang
+        handleIntent(getIntent());
+    }
+
+    @Override
+    protected void onNewIntent(Intent intent) {
+        super.onNewIntent(intent);
+        setIntent(intent); // Cập nhật lại intent hiện tại
+        handleIntent(intent); // Gọi xử lý intent mới
+    }
+
+    // Xử lý chuyển fragment theo dữ liệu trong Intent
+    private void handleIntent(Intent intent) {
+        String goToFragment = intent.getStringExtra("goToFragment");
+        if ("home".equals(goToFragment)) {
+            currentFragment = new HomeFragment();
+            loadFragment(currentFragment);
+        } else {
+            // Mặc định load HomeFragment nếu không có gì được gửi
+            if (currentFragment == null) {
+                currentFragment = new HomeFragment();
+                loadFragment(currentFragment);
+            }
+        }
+    }
+
+    // Tách phần ánh xạ navigation
+    private void initNavigation() {
         LinearLayout navHome = findViewById(R.id.nav_home);
         LinearLayout navCart = findViewById(R.id.nav_cart);
         LinearLayout navOrders = findViewById(R.id.nav_orders);
         LinearLayout navProfile = findViewById(R.id.nav_profile);
 
-        // Mặc định load HomeFragment khi mở app
-        if (savedInstanceState == null) {
-            currentFragment = new HomeFragment();
-            loadFragment(currentFragment);
-        }
-
-        // Xử lý sự kiện Click cho LinearLayout
         navHome.setOnClickListener(view -> switchFragment(new HomeFragment()));
         navCart.setOnClickListener(view -> switchFragment(new CartFragment()));
         navOrders.setOnClickListener(view -> switchFragment(new OrdersFragment()));
@@ -41,7 +65,7 @@ public class HomeActivity extends AppCompatActivity {
     }
 
     private void switchFragment(Fragment newFragment) {
-        if (newFragment.getClass().equals(currentFragment.getClass())) {
+        if (newFragment.getClass().equals(currentFragment != null ? currentFragment.getClass() : null)) {
             Log.d("HomeActivity", "Fragment already loaded: " + newFragment.getClass().getSimpleName());
             return;
         }
@@ -55,8 +79,8 @@ public class HomeActivity extends AppCompatActivity {
             return;
         }
 
-        Fragment currentFragment = getSupportFragmentManager().findFragmentById(R.id.fragment_container);
-        if (currentFragment != null && currentFragment.getClass().equals(fragment.getClass())) {
+        Fragment current = getSupportFragmentManager().findFragmentById(R.id.fragment_container);
+        if (current != null && current.getClass().equals(fragment.getClass())) {
             Log.d("HomeActivity", "Fragment already loaded: " + fragment.getClass().getSimpleName());
             return;
         }
@@ -68,7 +92,6 @@ public class HomeActivity extends AppCompatActivity {
                 .replace(R.id.fragment_container, fragment)
                 .commit();
 
-        getSupportFragmentManager().executePendingTransactions(); // Đảm bảo Fragment được cập nhật ngay lập tức
+        getSupportFragmentManager().executePendingTransactions();
     }
-
 }

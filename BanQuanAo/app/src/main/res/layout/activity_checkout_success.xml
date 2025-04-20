@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="24dp"
+    android:background="@android:color/white">
+
+    <!-- Hình ảnh gói hàng thành công -->
+    <ImageView
+        android:id="@+id/imgSuccess"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/ic_order_success"
+    android:contentDescription="Order success" />
+
+    <!-- Text tiêu đề -->
+    <TextView
+        android:id="@+id/tvSuccess"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Success!"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:layout_marginTop="24dp"
+        android:textColor="#000000" />
+
+    <!-- Mô tả -->
+    <TextView
+        android:id="@+id/tvMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Your order will be delivered soon.\nThank you for choosing our app!"
+        android:gravity="center"
+        android:textColor="#666666"
+        android:textSize="14sp"
+        android:layout_marginTop="12dp" />
+
+    <!-- Nút Continue -->
+    <Button
+        android:id="@+id/btnContinueShopping"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Continue Shopping"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#00BFFF"
+        android:layout_marginTop="36dp"
+        android:paddingVertical="12dp" />
+</LinearLayout>

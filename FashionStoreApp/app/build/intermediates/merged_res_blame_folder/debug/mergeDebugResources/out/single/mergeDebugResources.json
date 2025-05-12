@@ -1,0 +1,686 @@
+[
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.6\\com.example.fashionstoreapp-debug-44:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.6\\com.example.fashionstoreapp-main-46:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.6\\com.example.fashionstoreapp-debug-44:\\layout_activity_forgot_password.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.6\\com.example.fashionstoreapp-main-46:\\layout\\activity_forgot_password.xml"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.6\\com.example.fashionstoreapp-debug-44:\\layout_viewholder_slide_image.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.6\\com.example.fashionstoreapp-main-46:\\layout\\viewholder_slide_image.xml"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.6\\com.example.fashionstoreapp-debug-44:\\layout_activity_setting.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.6\\com.example.fashionstoreapp-main-46:\\layout\\activity_setting.xml"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.6\\com.example.fashionstoreapp-debug-44:\\font_metrophobic.ttf.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.6\\com.example.fashionstoreapp-main-46:\\font\\metrophobic.ttf"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.6\\com.example.fashionstoreapp-debug-44:\\drawable_order_item_background.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.6\\com.example.fashionstoreapp-main-46:\\drawable\\order_item_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.6\\com.example.fashionstoreapp-debug-44:\\drawable_background_white.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.6\\com.example.fashionstoreapp-main-46:\\drawable\\background_white.xml"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.6\\com.example.fashionstoreapp-debug-44:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.6\\com.example.fashionstoreapp-main-46:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.6\\com.example.fashionstoreapp-debug-44:\\drawable_show_up.png.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.6\\com.example.fashionstoreapp-main-46:\\drawable\\show_up.png"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.6\\com.example.fashionstoreapp-debug-44:\\drawable_fogot_success_background.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.6\\com.example.fashionstoreapp-main-46:\\drawable\\fogot_success_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.6\\com.example.fashionstoreapp-debug-44:\\mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.6\\com.example.fashionstoreapp-main-46:\\mipmap-xxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.6\\com.example.fashionstoreapp-debug-44:\\drawable-mdpi_white_circle.png.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.6\\com.example.fashionstoreapp-main-46:\\drawable-mdpi\\white_circle.png"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.6\\com.example.fashionstoreapp-debug-44:\\drawable-hdpi_logo_login.png.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.6\\com.example.fashionstoreapp-main-46:\\drawable-hdpi\\logo_login.png"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.6\\com.example.fashionstoreapp-debug-44:\\drawable-xhdpi_white_circle.png.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.6\\com.example.fashionstoreapp-main-46:\\drawable-xhdpi\\white_circle.png"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.6\\com.example.fashionstoreapp-debug-44:\\drawable_delete_cart.png.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.6\\com.example.fashionstoreapp-main-46:\\drawable\\delete_cart.png"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.6\\com.example.fashionstoreapp-debug-44:\\drawable_total_order.png.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.6\\com.example.fashionstoreapp-main-46:\\drawable\\total_order.png"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.6\\com.example.fashionstoreapp-debug-44:\\drawable-hdpi_avartar_male_fashion.png.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.6\\com.example.fashionstoreapp-main-46:\\drawable-hdpi\\avartar_male_fashion.png"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.6\\com.example.fashionstoreapp-debug-44:\\drawable_intro_button_background.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.6\\com.example.fashionstoreapp-main-46:\\drawable\\intro_button_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.6\\com.example.fashionstoreapp-debug-44:\\drawable_grey_bar.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.6\\com.example.fashionstoreapp-main-46:\\drawable\\grey_bar.xml"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.6\\com.example.fashionstoreapp-debug-44:\\drawable_icon_cart_selected.png.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.6\\com.example.fashionstoreapp-main-46:\\drawable\\icon_cart_selected.png"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.6\\com.example.fashionstoreapp-debug-44:\\layout_viewholder_checkout_item.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.6\\com.example.fashionstoreapp-main-46:\\layout\\viewholder_checkout_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.6\\com.example.fashionstoreapp-debug-44:\\drawable_icon_user.png.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.6\\com.example.fashionstoreapp-main-46:\\drawable\\icon_user.png"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.6\\com.example.fashionstoreapp-debug-44:\\drawable_white_recommeded_btn.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.6\\com.example.fashionstoreapp-main-46:\\drawable\\white_recommeded_btn.xml"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.6\\com.example.fashionstoreapp-debug-44:\\drawable-mdpi_logo_login.png.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.6\\com.example.fashionstoreapp-main-46:\\drawable-mdpi\\logo_login.png"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.6\\com.example.fashionstoreapp-debug-44:\\drawable-ldpi_logo_sign_up.png.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.6\\com.example.fashionstoreapp-main-46:\\drawable-ldpi\\logo_sign_up.png"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.6\\com.example.fashionstoreapp-debug-44:\\drawable_home_icon_orange_matched.png.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.6\\com.example.fashionstoreapp-main-46:\\drawable\\home_icon_orange_matched.png"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.6\\com.example.fashionstoreapp-debug-44:\\drawable-xxhdpi_white_circle.png.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.6\\com.example.fashionstoreapp-main-46:\\drawable-xxhdpi\\white_circle.png"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.6\\com.example.fashionstoreapp-debug-44:\\drawable-xxhdpi_minus.png.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.6\\com.example.fashionstoreapp-main-46:\\drawable-xxhdpi\\minus.png"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.6\\com.example.fashionstoreapp-debug-44:\\layout_fragment_all_order.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.6\\com.example.fashionstoreapp-main-46:\\layout\\fragment_all_order.xml"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.6\\com.example.fashionstoreapp-debug-44:\\drawable_edit_profile_btn.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.6\\com.example.fashionstoreapp-main-46:\\drawable\\edit_profile_btn.xml"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.6\\com.example.fashionstoreapp-debug-44:\\drawable_edittext_background.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.6\\com.example.fashionstoreapp-main-46:\\drawable\\edittext_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.6\\com.example.fashionstoreapp-debug-44:\\drawable-xxhdpi_plus.png.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.6\\com.example.fashionstoreapp-main-46:\\drawable-xxhdpi\\plus.png"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.6\\com.example.fashionstoreapp-debug-44:\\drawable-xxxhdpi_circles.png.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.6\\com.example.fashionstoreapp-main-46:\\drawable-xxxhdpi\\circles.png"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.6\\com.example.fashionstoreapp-debug-44:\\drawable_shipping_success_icon.png.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.6\\com.example.fashionstoreapp-main-46:\\drawable\\shipping_success_icon.png"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.6\\com.example.fashionstoreapp-debug-44:\\drawable_place_order_success.png.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.6\\com.example.fashionstoreapp-main-46:\\drawable\\place_order_success.png"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.6\\com.example.fashionstoreapp-debug-44:\\layout_dialog_forgot_password_success.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.6\\com.example.fashionstoreapp-main-46:\\layout\\dialog_forgot_password_success.xml"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.6\\com.example.fashionstoreapp-debug-44:\\drawable_image_intro.jpg.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.6\\com.example.fashionstoreapp-main-46:\\drawable\\image_intro.jpg"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.6\\com.example.fashionstoreapp-debug-44:\\drawable_bottom_forgot_background.jpg.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.6\\com.example.fashionstoreapp-main-46:\\drawable\\bottom_forgot_background.jpg"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.6\\com.example.fashionstoreapp-debug-44:\\drawable_cart_is_empty.png.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.6\\com.example.fashionstoreapp-main-46:\\drawable\\cart_is_empty.png"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.6\\com.example.fashionstoreapp-debug-44:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.6\\com.example.fashionstoreapp-main-46:\\mipmap-xxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.6\\com.example.fashionstoreapp-debug-44:\\drawable-xhdpi_bottom_white.png.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.6\\com.example.fashionstoreapp-main-46:\\drawable-xhdpi\\bottom_white.png"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.6\\com.example.fashionstoreapp-debug-44:\\drawable-hdpi_search.png.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.6\\com.example.fashionstoreapp-main-46:\\drawable-hdpi\\search.png"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.6\\com.example.fashionstoreapp-debug-44:\\drawable-mdpi_plus.png.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.6\\com.example.fashionstoreapp-main-46:\\drawable-mdpi\\plus.png"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.6\\com.example.fashionstoreapp-debug-44:\\drawable_home_icon_orange_64x64.png.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.6\\com.example.fashionstoreapp-main-46:\\drawable\\home_icon_orange_64x64.png"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.6\\com.example.fashionstoreapp-debug-44:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.6\\com.example.fashionstoreapp-main-46:\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.6\\com.example.fashionstoreapp-debug-44:\\drawable_progress_icon.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.6\\com.example.fashionstoreapp-main-46:\\drawable\\progress_icon.xml"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.6\\com.example.fashionstoreapp-debug-44:\\drawable-xxhdpi_search.png.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.6\\com.example.fashionstoreapp-main-46:\\drawable-xxhdpi\\search.png"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.6\\com.example.fashionstoreapp-debug-44:\\drawable_grey_btn_background.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.6\\com.example.fashionstoreapp-main-46:\\drawable\\grey_btn_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.6\\com.example.fashionstoreapp-debug-44:\\drawable-hdpi_minus.png.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.6\\com.example.fashionstoreapp-main-46:\\drawable-hdpi\\minus.png"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.6\\com.example.fashionstoreapp-debug-44:\\xml_backup_rules.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.6\\com.example.fashionstoreapp-main-46:\\xml\\backup_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.6\\com.example.fashionstoreapp-debug-44:\\drawable-hdpi_white_circle.png.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.6\\com.example.fashionstoreapp-main-46:\\drawable-hdpi\\white_circle.png"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.6\\com.example.fashionstoreapp-debug-44:\\drawable_cart_minus.png.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.6\\com.example.fashionstoreapp-main-46:\\drawable\\cart_minus.png"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.6\\com.example.fashionstoreapp-debug-44:\\drawable-ldpi_minus.png.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.6\\com.example.fashionstoreapp-main-46:\\drawable-ldpi\\minus.png"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.6\\com.example.fashionstoreapp-debug-44:\\drawable_user_infor_background.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.6\\com.example.fashionstoreapp-main-46:\\drawable\\user_infor_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.6\\com.example.fashionstoreapp-debug-44:\\drawable_background_category.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.6\\com.example.fashionstoreapp-main-46:\\drawable\\background_category.xml"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.6\\com.example.fashionstoreapp-debug-44:\\layout_dialog_pay_with_zalopay.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.6\\com.example.fashionstoreapp-main-46:\\layout\\dialog_pay_with_zalopay.xml"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.6\\com.example.fashionstoreapp-debug-44:\\drawable-ldpi_plus.png.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.6\\com.example.fashionstoreapp-main-46:\\drawable-ldpi\\plus.png"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.6\\com.example.fashionstoreapp-debug-44:\\drawable-xxxhdpi_plus.png.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.6\\com.example.fashionstoreapp-main-46:\\drawable-xxxhdpi\\plus.png"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.6\\com.example.fashionstoreapp-debug-44:\\drawable_success.png.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.6\\com.example.fashionstoreapp-main-46:\\drawable\\success.png"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.6\\com.example.fashionstoreapp-debug-44:\\layout_activity_history.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.6\\com.example.fashionstoreapp-main-46:\\layout\\activity_history.xml"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.6\\com.example.fashionstoreapp-debug-44:\\layout_fragment_pay_on_delivery.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.6\\com.example.fashionstoreapp-main-46:\\layout\\fragment_pay_on_delivery.xml"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.6\\com.example.fashionstoreapp-debug-44:\\drawable_add_address_background.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.6\\com.example.fashionstoreapp-main-46:\\drawable\\add_address_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.6\\com.example.fashionstoreapp-debug-44:\\drawable-hdpi_logo_sign_up.png.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.6\\com.example.fashionstoreapp-main-46:\\drawable-hdpi\\logo_sign_up.png"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.6\\com.example.fashionstoreapp-debug-44:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.6\\com.example.fashionstoreapp-main-46:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.6\\com.example.fashionstoreapp-debug-44:\\layout_viewholder_cart.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.6\\com.example.fashionstoreapp-main-46:\\layout\\viewholder_cart.xml"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.6\\com.example.fashionstoreapp-debug-44:\\layout_dialog_change_password.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.6\\com.example.fashionstoreapp-main-46:\\layout\\dialog_change_password.xml"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.6\\com.example.fashionstoreapp-debug-44:\\layout_viewholder_products.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.6\\com.example.fashionstoreapp-main-46:\\layout\\viewholder_products.xml"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.6\\com.example.fashionstoreapp-debug-44:\\drawable_circle_background.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.6\\com.example.fashionstoreapp-main-46:\\drawable\\circle_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.6\\com.example.fashionstoreapp-debug-44:\\drawable-xhdpi_cart_white.png.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.6\\com.example.fashionstoreapp-main-46:\\drawable-xhdpi\\cart_white.png"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.6\\com.example.fashionstoreapp-debug-44:\\layout_activity_products.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.6\\com.example.fashionstoreapp-main-46:\\layout\\activity_products.xml"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.6\\com.example.fashionstoreapp-debug-44:\\drawable_btn_orange.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.6\\com.example.fashionstoreapp-main-46:\\drawable\\btn_orange.xml"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.6\\com.example.fashionstoreapp-debug-44:\\drawable-xxxhdpi_white_circle.png.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.6\\com.example.fashionstoreapp-main-46:\\drawable-xxxhdpi\\white_circle.png"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.6\\com.example.fashionstoreapp-debug-44:\\drawable-xxxhdpi_minus.png.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.6\\com.example.fashionstoreapp-main-46:\\drawable-xxxhdpi\\minus.png"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.6\\com.example.fashionstoreapp-debug-44:\\drawable_grey_user_background.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.6\\com.example.fashionstoreapp-main-46:\\drawable\\grey_user_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.6\\com.example.fashionstoreapp-debug-44:\\mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.6\\com.example.fashionstoreapp-main-46:\\mipmap-mdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.6\\com.example.fashionstoreapp-debug-44:\\layout_activity_signup.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.6\\com.example.fashionstoreapp-main-46:\\layout\\activity_signup.xml"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.6\\com.example.fashionstoreapp-debug-44:\\drawable_cart_image_background.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.6\\com.example.fashionstoreapp-main-46:\\drawable\\cart_image_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.6\\com.example.fashionstoreapp-debug-44:\\layout_activity_admin.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.6\\com.example.fashionstoreapp-main-46:\\layout\\activity_admin.xml"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.6\\com.example.fashionstoreapp-debug-44:\\drawable_icon_add_to_cart.png.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.6\\com.example.fashionstoreapp-main-46:\\drawable\\icon_add_to_cart.png"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.6\\com.example.fashionstoreapp-debug-44:\\drawable-xhdpi_logo_login.png.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.6\\com.example.fashionstoreapp-main-46:\\drawable-xhdpi\\logo_login.png"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.6\\com.example.fashionstoreapp-debug-44:\\mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.6\\com.example.fashionstoreapp-main-46:\\mipmap-mdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.6\\com.example.fashionstoreapp-debug-44:\\drawable-hdpi_plus.png.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.6\\com.example.fashionstoreapp-main-46:\\drawable-hdpi\\plus.png"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.6\\com.example.fashionstoreapp-debug-44:\\drawable_icon_home_selected.png.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.6\\com.example.fashionstoreapp-main-46:\\drawable\\icon_home_selected.png"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.6\\com.example.fashionstoreapp-debug-44:\\drawable_icon_home_selected.jpg.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.6\\com.example.fashionstoreapp-main-46:\\drawable\\icon_home_selected.jpg"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.6\\com.example.fashionstoreapp-debug-44:\\layout_viewholder_order.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.6\\com.example.fashionstoreapp-main-46:\\layout\\viewholder_order.xml"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.6\\com.example.fashionstoreapp-debug-44:\\drawable_white_user_background.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.6\\com.example.fashionstoreapp-main-46:\\drawable\\white_user_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.6\\com.example.fashionstoreapp-debug-44:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.6\\com.example.fashionstoreapp-main-46:\\mipmap-xhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.6\\com.example.fashionstoreapp-debug-44:\\drawable_icon_setting_selected.png.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.6\\com.example.fashionstoreapp-main-46:\\drawable\\icon_setting_selected.png"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.6\\com.example.fashionstoreapp-debug-44:\\drawable_circle_icon_app.png.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.6\\com.example.fashionstoreapp-main-46:\\drawable\\circle_icon_app.png"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.6\\com.example.fashionstoreapp-debug-44:\\drawable-ldpi_white_circle.png.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.6\\com.example.fashionstoreapp-main-46:\\drawable-ldpi\\white_circle.png"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.6\\com.example.fashionstoreapp-debug-44:\\layout_activity_intro.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.6\\com.example.fashionstoreapp-main-46:\\layout\\activity_intro.xml"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.6\\com.example.fashionstoreapp-debug-44:\\drawable_icon_setting.png.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.6\\com.example.fashionstoreapp-main-46:\\drawable\\icon_setting.png"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.6\\com.example.fashionstoreapp-debug-44:\\drawable-xxxhdpi_bottom_white.png.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.6\\com.example.fashionstoreapp-main-46:\\drawable-xxxhdpi\\bottom_white.png"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.6\\com.example.fashionstoreapp-debug-44:\\drawable_empty_order.png.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.6\\com.example.fashionstoreapp-main-46:\\drawable\\empty_order.png"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.6\\com.example.fashionstoreapp-debug-44:\\drawable_edittext_background_address.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.6\\com.example.fashionstoreapp-main-46:\\drawable\\edittext_background_address.xml"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.6\\com.example.fashionstoreapp-debug-44:\\layout_activity_address.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.6\\com.example.fashionstoreapp-main-46:\\layout\\activity_address.xml"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.6\\com.example.fashionstoreapp-debug-44:\\drawable_back_background.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.6\\com.example.fashionstoreapp-main-46:\\drawable\\back_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.6\\com.example.fashionstoreapp-debug-44:\\mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.6\\com.example.fashionstoreapp-main-46:\\mipmap-hdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.6\\com.example.fashionstoreapp-debug-44:\\drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.6\\com.example.fashionstoreapp-pngs-40:\\drawable-anydpi-v24\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.6\\com.example.fashionstoreapp-debug-44:\\font_be_vietnam.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.6\\com.example.fashionstoreapp-main-46:\\font\\be_vietnam.xml"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.6\\com.example.fashionstoreapp-debug-44:\\drawable_edit_text_profile_background.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.6\\com.example.fashionstoreapp-main-46:\\drawable\\edit_text_profile_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.6\\com.example.fashionstoreapp-debug-44:\\drawable-xhdpi_search.png.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.6\\com.example.fashionstoreapp-main-46:\\drawable-xhdpi\\search.png"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.6\\com.example.fashionstoreapp-debug-44:\\drawable_icon_home.png.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.6\\com.example.fashionstoreapp-main-46:\\drawable\\icon_home.png"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.6\\com.example.fashionstoreapp-debug-44:\\layout_activity_cart.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.6\\com.example.fashionstoreapp-main-46:\\layout\\activity_cart.xml"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.6\\com.example.fashionstoreapp-debug-44:\\drawable-mdpi_logo_sign_up.png.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.6\\com.example.fashionstoreapp-main-46:\\drawable-mdpi\\logo_sign_up.png"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.6\\com.example.fashionstoreapp-debug-44:\\drawable-xxxhdpi_wallet.png.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.6\\com.example.fashionstoreapp-main-46:\\drawable-xxxhdpi\\wallet.png"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.6\\com.example.fashionstoreapp-debug-44:\\drawable-xxxhdpi_cart_white.png.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.6\\com.example.fashionstoreapp-main-46:\\drawable-xxxhdpi\\cart_white.png"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.6\\com.example.fashionstoreapp-debug-44:\\font_be_vietnam_bold.ttf.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.6\\com.example.fashionstoreapp-main-46:\\font\\be_vietnam_bold.ttf"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.6\\com.example.fashionstoreapp-debug-44:\\drawable-xhdpi_logo_sign_up.png.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.6\\com.example.fashionstoreapp-main-46:\\drawable-xhdpi\\logo_sign_up.png"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.6\\com.example.fashionstoreapp-debug-44:\\mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.6\\com.example.fashionstoreapp-main-46:\\mipmap-hdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.6\\com.example.fashionstoreapp-debug-44:\\layout_activity_login.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.6\\com.example.fashionstoreapp-main-46:\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.6\\com.example.fashionstoreapp-debug-44:\\drawable_card_background.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.6\\com.example.fashionstoreapp-main-46:\\drawable\\card_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.6\\com.example.fashionstoreapp-debug-44:\\drawable-ldpi_search.png.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.6\\com.example.fashionstoreapp-main-46:\\drawable-ldpi\\search.png"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.6\\com.example.fashionstoreapp-debug-44:\\layout_activity_user.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.6\\com.example.fashionstoreapp-main-46:\\layout\\activity_user.xml"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.6\\com.example.fashionstoreapp-debug-44:\\drawable_delete_background.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.6\\com.example.fashionstoreapp-main-46:\\drawable\\delete_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.6\\com.example.fashionstoreapp-debug-44:\\drawable_icon_user_selected.png.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.6\\com.example.fashionstoreapp-main-46:\\drawable\\icon_user_selected.png"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.6\\com.example.fashionstoreapp-debug-44:\\drawable_bg_overlay.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.6\\com.example.fashionstoreapp-main-46:\\drawable\\bg_overlay.xml"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.6\\com.example.fashionstoreapp-debug-44:\\drawable_show_down.png.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.6\\com.example.fashionstoreapp-main-46:\\drawable\\show_down.png"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.6\\com.example.fashionstoreapp-debug-44:\\layout_activity_edit_profile.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.6\\com.example.fashionstoreapp-main-46:\\layout\\activity_edit_profile.xml"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.6\\com.example.fashionstoreapp-debug-44:\\drawable_back_white.png.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.6\\com.example.fashionstoreapp-main-46:\\drawable\\back_white.png"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.6\\com.example.fashionstoreapp-debug-44:\\drawable-xxhdpi_logo_login.png.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.6\\com.example.fashionstoreapp-main-46:\\drawable-xxhdpi\\logo_login.png"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.6\\com.example.fashionstoreapp-debug-44:\\mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.6\\com.example.fashionstoreapp-main-46:\\mipmap-xhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.6\\com.example.fashionstoreapp-debug-44:\\drawable-hdpi_cart_white.png.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.6\\com.example.fashionstoreapp-main-46:\\drawable-hdpi\\cart_white.png"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.6\\com.example.fashionstoreapp-debug-44:\\layout_viewholder_category.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.6\\com.example.fashionstoreapp-main-46:\\layout\\viewholder_category.xml"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.6\\com.example.fashionstoreapp-debug-44:\\drawable_bg1.jpg.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.6\\com.example.fashionstoreapp-main-46:\\drawable\\bg1.jpg"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.6\\com.example.fashionstoreapp-debug-44:\\drawable-mdpi_search.png.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.6\\com.example.fashionstoreapp-main-46:\\drawable-mdpi\\search.png"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.6\\com.example.fashionstoreapp-debug-44:\\drawable-mdpi_minus.png.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.6\\com.example.fashionstoreapp-main-46:\\drawable-mdpi\\minus.png"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.6\\com.example.fashionstoreapp-debug-44:\\drawable_address_background.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.6\\com.example.fashionstoreapp-main-46:\\drawable\\address_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.6\\com.example.fashionstoreapp-debug-44:\\drawable_backgroud_intro.jpg.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.6\\com.example.fashionstoreapp-main-46:\\drawable\\backgroud_intro.jpg"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.6\\com.example.fashionstoreapp-debug-44:\\drawable-hdpi_bottom_white.png.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.6\\com.example.fashionstoreapp-main-46:\\drawable-hdpi\\bottom_white.png"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.6\\com.example.fashionstoreapp-debug-44:\\drawable_cart_plus.png.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.6\\com.example.fashionstoreapp-main-46:\\drawable\\cart_plus.png"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.6\\com.example.fashionstoreapp-debug-44:\\xml_data_extraction_rules.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.6\\com.example.fashionstoreapp-main-46:\\xml\\data_extraction_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.6\\com.example.fashionstoreapp-debug-44:\\drawable-mdpi_cart_white.png.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.6\\com.example.fashionstoreapp-main-46:\\drawable-mdpi\\cart_white.png"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.6\\com.example.fashionstoreapp-debug-44:\\drawable_cart_change_background.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.6\\com.example.fashionstoreapp-main-46:\\drawable\\cart_change_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.6\\com.example.fashionstoreapp-debug-44:\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.6\\com.example.fashionstoreapp-main-46:\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.6\\com.example.fashionstoreapp-debug-44:\\drawable_top_user_background.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.6\\com.example.fashionstoreapp-main-46:\\drawable\\top_user_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.6\\com.example.fashionstoreapp-debug-44:\\drawable_icon_history.png.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.6\\com.example.fashionstoreapp-main-46:\\drawable\\icon_history.png"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.6\\com.example.fashionstoreapp-debug-44:\\drawable_dialog_fogot_password_success_backgroud.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.6\\com.example.fashionstoreapp-main-46:\\drawable\\dialog_fogot_password_success_backgroud.xml"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.6\\com.example.fashionstoreapp-debug-44:\\drawable-xxhdpi_cart_white.png.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.6\\com.example.fashionstoreapp-main-46:\\drawable-xxhdpi\\cart_white.png"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.6\\com.example.fashionstoreapp-debug-44:\\layout_fragment_pay_with_zalopay.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.6\\com.example.fashionstoreapp-main-46:\\layout\\fragment_pay_with_zalopay.xml"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.6\\com.example.fashionstoreapp-debug-44:\\drawable-ldpi_logo_login.png.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.6\\com.example.fashionstoreapp-main-46:\\drawable-ldpi\\logo_login.png"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.6\\com.example.fashionstoreapp-debug-44:\\drawable_change_cart_background.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.6\\com.example.fashionstoreapp-main-46:\\drawable\\change_cart_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.6\\com.example.fashionstoreapp-debug-44:\\drawable-xxhdpi_bottom_white.png.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.6\\com.example.fashionstoreapp-main-46:\\drawable-xxhdpi\\bottom_white.png"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.6\\com.example.fashionstoreapp-debug-44:\\mipmap-anydpi-v33_ic_launcher.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.6\\com.example.fashionstoreapp-main-46:\\mipmap-anydpi-v33\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.6\\com.example.fashionstoreapp-debug-44:\\drawable_icon_app.png.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.6\\com.example.fashionstoreapp-main-46:\\drawable\\icon_app.png"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.6\\com.example.fashionstoreapp-debug-44:\\drawable-xxxhdpi_logo_login.png.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.6\\com.example.fashionstoreapp-main-46:\\drawable-xxxhdpi\\logo_login.png"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.6\\com.example.fashionstoreapp-debug-44:\\drawable_icon_google.png.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.6\\com.example.fashionstoreapp-main-46:\\drawable\\icon_google.png"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.6\\com.example.fashionstoreapp-debug-44:\\drawable_search_edt_background.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.6\\com.example.fashionstoreapp-main-46:\\drawable\\search_edt_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.6\\com.example.fashionstoreapp-debug-44:\\drawable-mdpi_bottom_white.png.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.6\\com.example.fashionstoreapp-main-46:\\drawable-mdpi\\bottom_white.png"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.6\\com.example.fashionstoreapp-debug-44:\\drawable_home_icon_gray_matched.png.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.6\\com.example.fashionstoreapp-main-46:\\drawable\\home_icon_gray_matched.png"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.6\\com.example.fashionstoreapp-debug-44:\\drawable-xxhdpi_logo_sign_up.png.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.6\\com.example.fashionstoreapp-main-46:\\drawable-xxhdpi\\logo_sign_up.png"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.6\\com.example.fashionstoreapp-debug-44:\\layout_viewholder_order_item.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.6\\com.example.fashionstoreapp-main-46:\\layout\\viewholder_order_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.6\\com.example.fashionstoreapp-debug-44:\\drawable-xhdpi_plus.png.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.6\\com.example.fashionstoreapp-main-46:\\drawable-xhdpi\\plus.png"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.6\\com.example.fashionstoreapp-debug-44:\\drawable_back.png.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.6\\com.example.fashionstoreapp-main-46:\\drawable\\back.png"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.6\\com.example.fashionstoreapp-debug-44:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.6\\com.example.fashionstoreapp-main-46:\\mipmap-xxxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.6\\com.example.fashionstoreapp-debug-44:\\drawable_icon_history_selected.png.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.6\\com.example.fashionstoreapp-main-46:\\drawable\\icon_history_selected.png"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.6\\com.example.fashionstoreapp-debug-44:\\drawable_address_is_empty.png.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.6\\com.example.fashionstoreapp-main-46:\\drawable\\address_is_empty.png"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.6\\com.example.fashionstoreapp-debug-44:\\drawable_icon_cart.png.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.6\\com.example.fashionstoreapp-main-46:\\drawable\\icon_cart.png"
+    },
+    {
+        "merged": "com.example.fashionstoreapp-debug-44:/layout_viewholder_products.xml.flat",
+        "source": "com.example.fashionstoreapp-main-46:/layout/viewholder_products.xml"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.6\\com.example.fashionstoreapp-debug-44:\\drawable-xxxhdpi_search.png.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.6\\com.example.fashionstoreapp-main-46:\\drawable-xxxhdpi\\search.png"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.6\\com.example.fashionstoreapp-debug-44:\\drawable-ldpi_cart_white.png.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.6\\com.example.fashionstoreapp-main-46:\\drawable-ldpi\\cart_white.png"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.6\\com.example.fashionstoreapp-debug-44:\\drawable_button_background.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.6\\com.example.fashionstoreapp-main-46:\\drawable\\button_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.6\\com.example.fashionstoreapp-debug-44:\\drawable-ldpi_bottom_white.png.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.6\\com.example.fashionstoreapp-main-46:\\drawable-ldpi\\bottom_white.png"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.6\\com.example.fashionstoreapp-debug-44:\\layout_activity_show_detail.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.6\\com.example.fashionstoreapp-main-46:\\layout\\activity_show_detail.xml"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.6\\com.example.fashionstoreapp-debug-44:\\drawable-xhdpi_minus.png.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.6\\com.example.fashionstoreapp-main-46:\\drawable-xhdpi\\minus.png"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.6\\com.example.fashionstoreapp-debug-44:\\layout_activity_order.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.6\\com.example.fashionstoreapp-main-46:\\layout\\activity_order.xml"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.6\\com.example.fashionstoreapp-debug-44:\\drawable_tab_selected_background.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.6\\com.example.fashionstoreapp-main-46:\\drawable\\tab_selected_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.6\\com.example.fashionstoreapp-debug-44:\\drawable_icon_search.png.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.6\\com.example.fashionstoreapp-main-46:\\drawable\\icon_search.png"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.6\\com.example.fashionstoreapp-debug-44:\\drawable_like_success.png.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.6\\com.example.fashionstoreapp-main-46:\\drawable\\like_success.png"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.6\\com.example.fashionstoreapp-debug-44:\\layout_activity_check_out.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.6\\com.example.fashionstoreapp-main-46:\\layout\\activity_check_out.xml"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.6\\com.example.fashionstoreapp-debug-44:\\drawable-xxxhdpi_logo_sign_up.png.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.6\\com.example.fashionstoreapp-main-46:\\drawable-xxxhdpi\\logo_sign_up.png"
+    }
+]

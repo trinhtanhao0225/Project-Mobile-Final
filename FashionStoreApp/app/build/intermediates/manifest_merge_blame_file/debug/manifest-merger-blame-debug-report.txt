@@ -1,0 +1,273 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.fashionstoreapp"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->D:\Share Code\FinalApp\FashionStoreApp\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="33" />
+9-->D:\Share Code\FinalApp\FashionStoreApp\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->D:\Share Code\FinalApp\FashionStoreApp\app\src\main\AndroidManifest.xml:5:5-67
+11-->D:\Share Code\FinalApp\FashionStoreApp\app\src\main\AndroidManifest.xml:5:22-64
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->D:\Share Code\FinalApp\FashionStoreApp\app\src\main\AndroidManifest.xml:6:5-79
+12-->D:\Share Code\FinalApp\FashionStoreApp\app\src\main\AndroidManifest.xml:6:22-76
+13    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+13-->D:\Share Code\FinalApp\FashionStoreApp\app\src\main\AndroidManifest.xml:7:5-76
+13-->D:\Share Code\FinalApp\FashionStoreApp\app\src\main\AndroidManifest.xml:7:22-73
+14    <uses-permission android:name="android.permission.READ_MEDIA_IMAGES" />
+14-->D:\Share Code\FinalApp\FashionStoreApp\app\src\main\AndroidManifest.xml:8:5-76
+14-->D:\Share Code\FinalApp\FashionStoreApp\app\src\main\AndroidManifest.xml:8:22-73
+15    <uses-permission android:name="android.permission.READ_MEDIA_AUDIO" />
+15-->D:\Share Code\FinalApp\FashionStoreApp\app\src\main\AndroidManifest.xml:9:5-75
+15-->D:\Share Code\FinalApp\FashionStoreApp\app\src\main\AndroidManifest.xml:9:22-72
+16    <uses-permission android:name="android.permission.READ_MEDIA_VIDEO" />
+16-->D:\Share Code\FinalApp\FashionStoreApp\app\src\main\AndroidManifest.xml:10:5-75
+16-->D:\Share Code\FinalApp\FashionStoreApp\app\src\main\AndroidManifest.xml:10:22-72
+17    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+17-->D:\Share Code\FinalApp\FashionStoreApp\app\src\main\AndroidManifest.xml:11:5-80
+17-->D:\Share Code\FinalApp\FashionStoreApp\app\src\main\AndroidManifest.xml:11:22-77
+18    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+18-->D:\Share Code\FinalApp\FashionStoreApp\app\src\main\AndroidManifest.xml:12:5-14:40
+18-->D:\Share Code\FinalApp\FashionStoreApp\app\src\main\AndroidManifest.xml:13:9-65
+19
+20    <queries>
+20-->[zpdk-release-v3.1.aar] C:\Users\DELL\.gradle\caches\transforms-3\489a0e418422d591e00a8c286916532d\transformed\jetified-zpdk-release-v3.1\AndroidManifest.xml:9:5-13:15
+21        <package android:name="vn.com.vng.zalopay.sb1" />
+21-->[zpdk-release-v3.1.aar] C:\Users\DELL\.gradle\caches\transforms-3\489a0e418422d591e00a8c286916532d\transformed\jetified-zpdk-release-v3.1\AndroidManifest.xml:10:9-58
+21-->[zpdk-release-v3.1.aar] C:\Users\DELL\.gradle\caches\transforms-3\489a0e418422d591e00a8c286916532d\transformed\jetified-zpdk-release-v3.1\AndroidManifest.xml:10:18-55
+22        <package android:name="vn.com.vng.zalopay" />
+22-->[zpdk-release-v3.1.aar] C:\Users\DELL\.gradle\caches\transforms-3\489a0e418422d591e00a8c286916532d\transformed\jetified-zpdk-release-v3.1\AndroidManifest.xml:11:9-54
+22-->[zpdk-release-v3.1.aar] C:\Users\DELL\.gradle\caches\transforms-3\489a0e418422d591e00a8c286916532d\transformed\jetified-zpdk-release-v3.1\AndroidManifest.xml:11:18-51
+23        <package android:name="com.zing.zalo" />
+23-->[zpdk-release-v3.1.aar] C:\Users\DELL\.gradle\caches\transforms-3\489a0e418422d591e00a8c286916532d\transformed\jetified-zpdk-release-v3.1\AndroidManifest.xml:12:9-49
+23-->[zpdk-release-v3.1.aar] C:\Users\DELL\.gradle\caches\transforms-3\489a0e418422d591e00a8c286916532d\transformed\jetified-zpdk-release-v3.1\AndroidManifest.xml:12:18-46
+24    </queries>
+25
+26    <permission
+26-->[androidx.core:core:1.9.0] C:\Users\DELL\.gradle\caches\transforms-3\ec4f76f6c0c02de8ba18086e7bd9baf5\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
+27        android:name="com.example.fashionstoreapp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+27-->[androidx.core:core:1.9.0] C:\Users\DELL\.gradle\caches\transforms-3\ec4f76f6c0c02de8ba18086e7bd9baf5\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
+28        android:protectionLevel="signature" />
+28-->[androidx.core:core:1.9.0] C:\Users\DELL\.gradle\caches\transforms-3\ec4f76f6c0c02de8ba18086e7bd9baf5\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
+29
+30    <uses-permission android:name="com.example.fashionstoreapp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+30-->[androidx.core:core:1.9.0] C:\Users\DELL\.gradle\caches\transforms-3\ec4f76f6c0c02de8ba18086e7bd9baf5\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
+30-->[androidx.core:core:1.9.0] C:\Users\DELL\.gradle\caches\transforms-3\ec4f76f6c0c02de8ba18086e7bd9baf5\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
+31
+32    <application
+32-->D:\Share Code\FinalApp\FashionStoreApp\app\src\main\AndroidManifest.xml:15:5-65:19
+33        android:allowBackup="true"
+33-->D:\Share Code\FinalApp\FashionStoreApp\app\src\main\AndroidManifest.xml:16:9-35
+34        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+34-->[androidx.core:core:1.9.0] C:\Users\DELL\.gradle\caches\transforms-3\ec4f76f6c0c02de8ba18086e7bd9baf5\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
+35        android:dataExtractionRules="@xml/data_extraction_rules"
+35-->D:\Share Code\FinalApp\FashionStoreApp\app\src\main\AndroidManifest.xml:17:9-65
+36        android:debuggable="true"
+37        android:fontFamily="@font/be_vietnam"
+37-->D:\Share Code\FinalApp\FashionStoreApp\app\src\main\AndroidManifest.xml:23:9-46
+38        android:fullBackupContent="@xml/backup_rules"
+38-->D:\Share Code\FinalApp\FashionStoreApp\app\src\main\AndroidManifest.xml:18:9-54
+39        android:icon="@drawable/icon_app"
+39-->D:\Share Code\FinalApp\FashionStoreApp\app\src\main\AndroidManifest.xml:19:9-42
+40        android:label="@string/app_name"
+40-->D:\Share Code\FinalApp\FashionStoreApp\app\src\main\AndroidManifest.xml:20:9-41
+41        android:supportsRtl="true"
+41-->D:\Share Code\FinalApp\FashionStoreApp\app\src\main\AndroidManifest.xml:21:9-35
+42        android:testOnly="true"
+43        android:theme="@style/Theme.FashionStoreApp"
+43-->D:\Share Code\FinalApp\FashionStoreApp\app\src\main\AndroidManifest.xml:22:9-53
+44        android:usesCleartextTraffic="true" >
+44-->D:\Share Code\FinalApp\FashionStoreApp\app\src\main\AndroidManifest.xml:25:9-44
+45        <activity
+45-->D:\Share Code\FinalApp\FashionStoreApp\app\src\main\AndroidManifest.xml:26:9-93
+46            android:name="com.example.fashionstoreapp.Activity.LoginActivity"
+46-->D:\Share Code\FinalApp\FashionStoreApp\app\src\main\AndroidManifest.xml:26:19-57
+47            android:exported="true" />
+47-->D:\Share Code\FinalApp\FashionStoreApp\app\src\main\AndroidManifest.xml:26:58-81
+48        <activity
+48-->D:\Share Code\FinalApp\FashionStoreApp\app\src\main\AndroidManifest.xml:27:9-92
+49            android:name="com.example.fashionstoreapp.Activity.MainActivity"
+49-->D:\Share Code\FinalApp\FashionStoreApp\app\src\main\AndroidManifest.xml:27:19-56
+50            android:exported="true" />
+50-->D:\Share Code\FinalApp\FashionStoreApp\app\src\main\AndroidManifest.xml:27:57-80
+51        <activity
+51-->D:\Share Code\FinalApp\FashionStoreApp\app\src\main\AndroidManifest.xml:28:9-94
+52            android:name="com.example.fashionstoreapp.Activity.SignUpActivity"
+52-->D:\Share Code\FinalApp\FashionStoreApp\app\src\main\AndroidManifest.xml:28:19-58
+53            android:exported="true" />
+53-->D:\Share Code\FinalApp\FashionStoreApp\app\src\main\AndroidManifest.xml:28:59-82
+54        <activity
+54-->D:\Share Code\FinalApp\FashionStoreApp\app\src\main\AndroidManifest.xml:29:9-98
+55            android:name="com.example.fashionstoreapp.Activity.ShowDetailActivity"
+55-->D:\Share Code\FinalApp\FashionStoreApp\app\src\main\AndroidManifest.xml:29:19-62
+56            android:exported="true" />
+56-->D:\Share Code\FinalApp\FashionStoreApp\app\src\main\AndroidManifest.xml:29:63-86
+57        <activity
+57-->D:\Share Code\FinalApp\FashionStoreApp\app\src\main\AndroidManifest.xml:30:9-92
+58            android:name="com.example.fashionstoreapp.Activity.UserActivity"
+58-->D:\Share Code\FinalApp\FashionStoreApp\app\src\main\AndroidManifest.xml:30:19-56
+59            android:exported="true" />
+59-->D:\Share Code\FinalApp\FashionStoreApp\app\src\main\AndroidManifest.xml:30:57-80
+60        <activity
+60-->D:\Share Code\FinalApp\FashionStoreApp\app\src\main\AndroidManifest.xml:31:9-96
+61            android:name="com.example.fashionstoreapp.Activity.ProductsActivity"
+61-->D:\Share Code\FinalApp\FashionStoreApp\app\src\main\AndroidManifest.xml:31:19-60
+62            android:exported="true" />
+62-->D:\Share Code\FinalApp\FashionStoreApp\app\src\main\AndroidManifest.xml:31:61-84
+63        <activity
+63-->D:\Share Code\FinalApp\FashionStoreApp\app\src\main\AndroidManifest.xml:32:9-92
+64            android:name="com.example.fashionstoreapp.Activity.CartActivity"
+64-->D:\Share Code\FinalApp\FashionStoreApp\app\src\main\AndroidManifest.xml:32:19-56
+65            android:exported="true" />
+65-->D:\Share Code\FinalApp\FashionStoreApp\app\src\main\AndroidManifest.xml:32:57-80
+66        <activity
+66-->D:\Share Code\FinalApp\FashionStoreApp\app\src\main\AndroidManifest.xml:33:9-102
+67            android:name="com.example.fashionstoreapp.Activity.ForgotPasswordActivity"
+67-->D:\Share Code\FinalApp\FashionStoreApp\app\src\main\AndroidManifest.xml:33:19-66
+68            android:exported="true" />
+68-->D:\Share Code\FinalApp\FashionStoreApp\app\src\main\AndroidManifest.xml:33:67-90
+69        <activity
+69-->D:\Share Code\FinalApp\FashionStoreApp\app\src\main\AndroidManifest.xml:34:9-99
+70            android:name="com.example.fashionstoreapp.Activity.EditProfileActivity"
+70-->D:\Share Code\FinalApp\FashionStoreApp\app\src\main\AndroidManifest.xml:34:19-63
+71            android:exported="true" />
+71-->D:\Share Code\FinalApp\FashionStoreApp\app\src\main\AndroidManifest.xml:34:64-87
+72        <activity
+72-->D:\Share Code\FinalApp\FashionStoreApp\app\src\main\AndroidManifest.xml:35:9-93
+73            android:name="com.example.fashionstoreapp.Activity.OrderActivity"
+73-->D:\Share Code\FinalApp\FashionStoreApp\app\src\main\AndroidManifest.xml:35:19-57
+74            android:exported="true" />
+74-->D:\Share Code\FinalApp\FashionStoreApp\app\src\main\AndroidManifest.xml:35:58-81
+75        <activity
+75-->D:\Share Code\FinalApp\FashionStoreApp\app\src\main\AndroidManifest.xml:36:9-93
+76            android:name="com.example.fashionstoreapp.Activity.AdminActivity"
+76-->D:\Share Code\FinalApp\FashionStoreApp\app\src\main\AndroidManifest.xml:36:19-57
+77            android:exported="true" />
+77-->D:\Share Code\FinalApp\FashionStoreApp\app\src\main\AndroidManifest.xml:36:58-81
+78        <activity
+78-->D:\Share Code\FinalApp\FashionStoreApp\app\src\main\AndroidManifest.xml:38:9-50:20
+79            android:name="com.example.fashionstoreapp.Activity.CheckOutActivity"
+79-->D:\Share Code\FinalApp\FashionStoreApp\app\src\main\AndroidManifest.xml:39:13-54
+80            android:exported="true"
+80-->D:\Share Code\FinalApp\FashionStoreApp\app\src\main\AndroidManifest.xml:41:13-36
+81            android:launchMode="singleTask" >
+81-->D:\Share Code\FinalApp\FashionStoreApp\app\src\main\AndroidManifest.xml:40:13-44
+82            <intent-filter>
+82-->D:\Share Code\FinalApp\FashionStoreApp\app\src\main\AndroidManifest.xml:42:13-48:29
+83                <action android:name="android.intent.action.VIEW" />
+83-->D:\Share Code\FinalApp\FashionStoreApp\app\src\main\AndroidManifest.xml:43:17-69
+83-->D:\Share Code\FinalApp\FashionStoreApp\app\src\main\AndroidManifest.xml:43:25-66
+84
+85                <category android:name="android.intent.category.DEFAULT" />
+85-->D:\Share Code\FinalApp\FashionStoreApp\app\src\main\AndroidManifest.xml:44:17-76
+85-->D:\Share Code\FinalApp\FashionStoreApp\app\src\main\AndroidManifest.xml:44:27-73
+86                <category android:name="android.intent.category.BROWSABLE" />
+86-->D:\Share Code\FinalApp\FashionStoreApp\app\src\main\AndroidManifest.xml:45:17-78
+86-->D:\Share Code\FinalApp\FashionStoreApp\app\src\main\AndroidManifest.xml:45:27-75
+87
+88                <data
+88-->D:\Share Code\FinalApp\FashionStoreApp\app\src\main\AndroidManifest.xml:46:17-47:42
+89                    android:host="app"
+89-->D:\Share Code\FinalApp\FashionStoreApp\app\src\main\AndroidManifest.xml:47:21-39
+90                    android:scheme="demozpdk" />
+90-->D:\Share Code\FinalApp\FashionStoreApp\app\src\main\AndroidManifest.xml:46:23-48
+91            </intent-filter>
+92        </activity>
+93        <activity android:name="com.example.fashionstoreapp.Activity.AddressActivity" />
+93-->D:\Share Code\FinalApp\FashionStoreApp\app\src\main\AndroidManifest.xml:51:9-71
+93-->D:\Share Code\FinalApp\FashionStoreApp\app\src\main\AndroidManifest.xml:51:19-59
+94        <activity
+94-->D:\Share Code\FinalApp\FashionStoreApp\app\src\main\AndroidManifest.xml:53:9-60:20
+95            android:name="com.example.fashionstoreapp.Activity.IntroActivity"
+95-->D:\Share Code\FinalApp\FashionStoreApp\app\src\main\AndroidManifest.xml:54:13-51
+96            android:exported="true" >
+96-->D:\Share Code\FinalApp\FashionStoreApp\app\src\main\AndroidManifest.xml:55:13-36
+97            <intent-filter>
+97-->D:\Share Code\FinalApp\FashionStoreApp\app\src\main\AndroidManifest.xml:56:13-59:29
+98                <action android:name="android.intent.action.MAIN" />
+98-->D:\Share Code\FinalApp\FashionStoreApp\app\src\main\AndroidManifest.xml:57:17-69
+98-->D:\Share Code\FinalApp\FashionStoreApp\app\src\main\AndroidManifest.xml:57:25-66
+99
+100                <category android:name="android.intent.category.LAUNCHER" />
+100-->D:\Share Code\FinalApp\FashionStoreApp\app\src\main\AndroidManifest.xml:58:17-77
+100-->D:\Share Code\FinalApp\FashionStoreApp\app\src\main\AndroidManifest.xml:58:27-74
+101            </intent-filter>
+102        </activity>
+103
+104        <meta-data
+104-->D:\Share Code\FinalApp\FashionStoreApp\app\src\main\AndroidManifest.xml:62:9-64:57
+105            android:name="preloaded_fonts"
+105-->D:\Share Code\FinalApp\FashionStoreApp\app\src\main\AndroidManifest.xml:63:13-43
+106            android:resource="@array/preloaded_fonts" />
+106-->D:\Share Code\FinalApp\FashionStoreApp\app\src\main\AndroidManifest.xml:64:13-54
+107
+108        <activity
+108-->[com.google.android.gms:play-services-auth:20.5.0] C:\Users\DELL\.gradle\caches\transforms-3\1c4be7b569802c099d6d1e82c112a97c\transformed\jetified-play-services-auth-20.5.0\AndroidManifest.xml:23:9-27:75
+109            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+109-->[com.google.android.gms:play-services-auth:20.5.0] C:\Users\DELL\.gradle\caches\transforms-3\1c4be7b569802c099d6d1e82c112a97c\transformed\jetified-play-services-auth-20.5.0\AndroidManifest.xml:24:13-93
+110            android:excludeFromRecents="true"
+110-->[com.google.android.gms:play-services-auth:20.5.0] C:\Users\DELL\.gradle\caches\transforms-3\1c4be7b569802c099d6d1e82c112a97c\transformed\jetified-play-services-auth-20.5.0\AndroidManifest.xml:25:13-46
+111            android:exported="false"
+111-->[com.google.android.gms:play-services-auth:20.5.0] C:\Users\DELL\.gradle\caches\transforms-3\1c4be7b569802c099d6d1e82c112a97c\transformed\jetified-play-services-auth-20.5.0\AndroidManifest.xml:26:13-37
+112            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+112-->[com.google.android.gms:play-services-auth:20.5.0] C:\Users\DELL\.gradle\caches\transforms-3\1c4be7b569802c099d6d1e82c112a97c\transformed\jetified-play-services-auth-20.5.0\AndroidManifest.xml:27:13-72
+113        <!--
+114            Service handling Google Sign-In user revocation. For apps that do not integrate with
+115            Google Sign-In, this service will never be started.
+116        -->
+117        <service
+117-->[com.google.android.gms:play-services-auth:20.5.0] C:\Users\DELL\.gradle\caches\transforms-3\1c4be7b569802c099d6d1e82c112a97c\transformed\jetified-play-services-auth-20.5.0\AndroidManifest.xml:33:9-37:51
+118            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+118-->[com.google.android.gms:play-services-auth:20.5.0] C:\Users\DELL\.gradle\caches\transforms-3\1c4be7b569802c099d6d1e82c112a97c\transformed\jetified-play-services-auth-20.5.0\AndroidManifest.xml:34:13-89
+119            android:exported="true"
+119-->[com.google.android.gms:play-services-auth:20.5.0] C:\Users\DELL\.gradle\caches\transforms-3\1c4be7b569802c099d6d1e82c112a97c\transformed\jetified-play-services-auth-20.5.0\AndroidManifest.xml:35:13-36
+120            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+120-->[com.google.android.gms:play-services-auth:20.5.0] C:\Users\DELL\.gradle\caches\transforms-3\1c4be7b569802c099d6d1e82c112a97c\transformed\jetified-play-services-auth-20.5.0\AndroidManifest.xml:36:13-107
+121            android:visibleToInstantApps="true" />
+121-->[com.google.android.gms:play-services-auth:20.5.0] C:\Users\DELL\.gradle\caches\transforms-3\1c4be7b569802c099d6d1e82c112a97c\transformed\jetified-play-services-auth-20.5.0\AndroidManifest.xml:37:13-48
+122
+123        <activity
+123-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\DELL\.gradle\caches\transforms-3\13e38bc0a68c75c157006028828b6577\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:9-22:45
+124            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+124-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\DELL\.gradle\caches\transforms-3\13e38bc0a68c75c157006028828b6577\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:19-85
+125            android:exported="false"
+125-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\DELL\.gradle\caches\transforms-3\13e38bc0a68c75c157006028828b6577\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:22:19-43
+126            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+126-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\DELL\.gradle\caches\transforms-3\13e38bc0a68c75c157006028828b6577\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:21:19-78
+127
+128        <meta-data
+128-->[com.google.android.gms:play-services-basement:18.2.0] C:\Users\DELL\.gradle\caches\transforms-3\e8258e8999a3a73c619fc0b75d5a3883\transformed\jetified-play-services-basement-18.2.0\AndroidManifest.xml:21:9-23:69
+129            android:name="com.google.android.gms.version"
+129-->[com.google.android.gms:play-services-basement:18.2.0] C:\Users\DELL\.gradle\caches\transforms-3\e8258e8999a3a73c619fc0b75d5a3883\transformed\jetified-play-services-basement-18.2.0\AndroidManifest.xml:22:13-58
+130            android:value="@integer/google_play_services_version" />
+130-->[com.google.android.gms:play-services-basement:18.2.0] C:\Users\DELL\.gradle\caches\transforms-3\e8258e8999a3a73c619fc0b75d5a3883\transformed\jetified-play-services-basement-18.2.0\AndroidManifest.xml:23:13-66
+131
+132        <provider
+132-->[androidx.emoji2:emoji2:1.2.0] C:\Users\DELL\.gradle\caches\transforms-3\27ea2d1fe40306b6a6ebc7514e2ae640\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+133            android:name="androidx.startup.InitializationProvider"
+133-->[androidx.emoji2:emoji2:1.2.0] C:\Users\DELL\.gradle\caches\transforms-3\27ea2d1fe40306b6a6ebc7514e2ae640\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:25:13-67
+134            android:authorities="com.example.fashionstoreapp.androidx-startup"
+134-->[androidx.emoji2:emoji2:1.2.0] C:\Users\DELL\.gradle\caches\transforms-3\27ea2d1fe40306b6a6ebc7514e2ae640\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:26:13-68
+135            android:exported="false" >
+135-->[androidx.emoji2:emoji2:1.2.0] C:\Users\DELL\.gradle\caches\transforms-3\27ea2d1fe40306b6a6ebc7514e2ae640\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:27:13-37
+136            <meta-data
+136-->[androidx.emoji2:emoji2:1.2.0] C:\Users\DELL\.gradle\caches\transforms-3\27ea2d1fe40306b6a6ebc7514e2ae640\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+137                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+137-->[androidx.emoji2:emoji2:1.2.0] C:\Users\DELL\.gradle\caches\transforms-3\27ea2d1fe40306b6a6ebc7514e2ae640\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:30:17-75
+138                android:value="androidx.startup" />
+138-->[androidx.emoji2:emoji2:1.2.0] C:\Users\DELL\.gradle\caches\transforms-3\27ea2d1fe40306b6a6ebc7514e2ae640\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:31:17-49
+139            <meta-data
+139-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\DELL\.gradle\caches\transforms-3\1d1173f99a1313055c26367e9296308a\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+140                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+140-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\DELL\.gradle\caches\transforms-3\1d1173f99a1313055c26367e9296308a\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+141                android:value="androidx.startup" />
+141-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\DELL\.gradle\caches\transforms-3\1d1173f99a1313055c26367e9296308a\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+142        </provider>
+143    </application>
+144
+145</manifest>

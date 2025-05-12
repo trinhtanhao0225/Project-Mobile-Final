@@ -4,7 +4,11 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+<<<<<<< HEAD
 
+=======
+    android:background="#ECEBE6"
+>>>>>>> c52494fe6a3d80d0a4fe61fcfaed901e57911eec
     android:focusable="true"
     tools:focusableInTouchMode="true">
 
@@ -39,6 +43,10 @@
                 android:layout_marginStart="16dp"
                 android:layout_marginTop="24dp"
                 android:background="@drawable/search_edt_background"
+<<<<<<< HEAD
+=======
+                android:drawableStart="@drawable/search"
+>>>>>>> c52494fe6a3d80d0a4fe61fcfaed901e57911eec
                 android:drawablePadding="15dp"
                 android:ems="10"
                 android:hint="Search"

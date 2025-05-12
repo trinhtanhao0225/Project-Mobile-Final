@@ -154,7 +154,11 @@
             android:layout_height="wrap_content"
             android:layout_gravity="bottom"
             android:layout_margin="16dp"
+<<<<<<< HEAD
             android:background="#ff4627"
+=======
+            android:background="@drawable/button_background"
+>>>>>>> c52494fe6a3d80d0a4fe61fcfaed901e57911eec
             android:text="Check Out"
             android:textAllCaps="false"
             android:textColor="#ffffff"

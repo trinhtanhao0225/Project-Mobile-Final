@@ -253,19 +253,32 @@
                 app:layout_constraintTop_toTopOf="parent">
                 <androidx.constraintlayout.widget.ConstraintLayout
                     android:layout_width="match_parent"
+<<<<<<< HEAD
                     android:layout_height="match_parent">
+=======
+                    android:layout_height="wrap_content">
+>>>>>>> c52494fe6a3d80d0a4fe61fcfaed901e57911eec
 
                     <TextView
                         android:id="@+id/textView8"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
+<<<<<<< HEAD
                         android:layout_marginStart="16sp"
                         android:layout_marginEnd="16sp"
+=======
+                        android:layout_marginStart="16dp"
+                        android:layout_marginTop="16dp"
+                        android:layout_marginEnd="16dp"
+>>>>>>> c52494fe6a3d80d0a4fe61fcfaed901e57911eec
                         android:text="Description:"
                         android:textColor="#373b54"
                         android:textSize="18sp"
                         android:textStyle="bold"
+<<<<<<< HEAD
                         app:layout_constraintEnd_toStartOf="@+id/tvDescription"
+=======
+>>>>>>> c52494fe6a3d80d0a4fe61fcfaed901e57911eec
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toTopOf="parent" />
 
@@ -283,11 +296,98 @@
                         app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toBottomOf="@+id/textView8" />
+<<<<<<< HEAD
                 </androidx.constraintlayout.widget.ConstraintLayout>
 
             </ScrollView>
 
 
+=======
+
+                    <TextView
+                        android:id="@+id/tvYourReviewTitle"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="16dp"
+                        android:layout_marginTop="16dp"
+                        android:layout_marginEnd="16dp"
+                        android:text="Your Review"
+                        android:textColor="#373b54"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/tvDescription" />
+
+                    <Spinner
+                        android:id="@+id/spinnerRating"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="16dp"
+                        android:layout_marginTop="6dp"
+                        android:layout_marginEnd="16dp"
+                        android:background="@drawable/spinner_background"
+                        android:entries="@array/rating_options"
+                        android:prompt="@string/rating_prompt"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/tvYourReviewTitle" />
+
+                    <EditText
+                        android:id="@+id/etReviewComment"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="16dp"
+                        android:layout_marginTop="8dp"
+                        android:layout_marginEnd="16dp"
+                        android:background="@drawable/edittext_background"
+                        android:minHeight="100dp"
+                        android:padding="8dp"
+                        android:textColor="#373b54"
+                        android:textColorHint="#999999"
+                        android:textSize="16sp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/spinnerRating" />
+
+                    <Button
+                        android:id="@+id/btnSubmitReview"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:layout_marginEnd="16dp"
+                        android:backgroundTint="#00FF00"
+                        android:text="Submit Review"
+                        android:textColor="#FFFFFF"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/etReviewComment" />
+
+                    <TextView
+                        android:id="@+id/tvReviewsTitle"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="16dp"
+                        android:layout_marginTop="16dp"
+                        android:layout_marginEnd="16dp"
+                        android:text="Customer Reviews"
+                        android:textColor="#373b54"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/btnSubmitReview" />
+
+                    <androidx.recyclerview.widget.RecyclerView
+                        android:id="@+id/rvReviews"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="16dp"
+                        android:layout_marginTop="8dp"
+                        android:layout_marginEnd="16dp"
+                        android:layout_marginBottom="16dp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/tvReviewsTitle" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+            </ScrollView>
+>>>>>>> c52494fe6a3d80d0a4fe61fcfaed901e57911eec
         </LinearLayout>
     </LinearLayout>
 
@@ -300,7 +400,10 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent">
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> c52494fe6a3d80d0a4fe61fcfaed901e57911eec
         <LinearLayout
             android:id="@+id/linearLayout"
             android:layout_width="match_parent"

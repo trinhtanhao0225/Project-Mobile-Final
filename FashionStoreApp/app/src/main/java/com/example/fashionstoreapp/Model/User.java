@@ -14,7 +14,11 @@ public class User implements Serializable {
 	@Expose
 	private String id;
 
+<<<<<<< HEAD
 	@SerializedName("login_Type")
+=======
+	@SerializedName("login_type")
+>>>>>>> c52494fe6a3d80d0a4fe61fcfaed901e57911eec
 	@Expose
 	private String login_Type;
 
@@ -26,7 +30,11 @@ public class User implements Serializable {
 	@Expose
 	private String password;
 
+<<<<<<< HEAD
 	@SerializedName("user_Name")
+=======
+	@SerializedName("user_name")
+>>>>>>> c52494fe6a3d80d0a4fe61fcfaed901e57911eec
 	@Expose
 	private String user_Name;
 
@@ -38,7 +46,11 @@ public class User implements Serializable {
 	@Expose
 	private String email;
 
+<<<<<<< HEAD
 	@SerializedName("phone_Number")
+=======
+	@SerializedName("phone_number")
+>>>>>>> c52494fe6a3d80d0a4fe61fcfaed901e57911eec
 	@Expose
 	private String phone_Number;
 
@@ -54,7 +66,11 @@ public class User implements Serializable {
 //	@Expose
 	private List<Cart> cart;
 
+<<<<<<< HEAD
 
+=======
+	private List<Object> rating; // Thêm để khớp với JSON
+>>>>>>> c52494fe6a3d80d0a4fe61fcfaed901e57911eec
 
 	public User() {
 

@@ -19,11 +19,19 @@ public class Order implements Serializable {
 	@Expose
 	private int total;
 
+<<<<<<< HEAD
 	@SerializedName("booking_Date")
 	@Expose
 	private Date booking_Date;
 
 	@SerializedName("payment_Method")
+=======
+	@SerializedName("booking_date")
+	@Expose
+	private Date booking_Date;
+
+	@SerializedName("payment_method")
+>>>>>>> c52494fe6a3d80d0a4fe61fcfaed901e57911eec
 	@Expose
 	private String payment_Method;
 

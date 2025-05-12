@@ -26,6 +26,10 @@ public interface CartAPI {
     @GET("/cartofuser")
     Call<List<Cart>> cartOfUser(@Query("id") String userId);
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> c52494fe6a3d80d0a4fe61fcfaed901e57911eec
     @FormUrlEncoded
     @POST("/deletecart")
     Call<String> deleteCart(@Field("cart_id") int cart_id, @Field("user_id") String user_id);

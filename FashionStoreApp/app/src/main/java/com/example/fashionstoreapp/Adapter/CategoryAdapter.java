@@ -65,7 +65,15 @@ public class CategoryAdapter extends RecyclerView.Adapter<CategoryAdapter.ViewHo
         });
 
     }
+<<<<<<< HEAD
 
+=======
+    // Trong CategoryAdapter.java
+    public void updateCategories(List<Category> newCategories) {
+        this.categories = newCategories != null ? newCategories : new ArrayList<>();
+        notifyDataSetChanged();
+    }
+>>>>>>> c52494fe6a3d80d0a4fe61fcfaed901e57911eec
 
     @Override
     public int getItemCount() {

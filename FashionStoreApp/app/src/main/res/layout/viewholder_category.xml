@@ -6,7 +6,11 @@
     android:layout_width="112.5dp"
     android:layout_height="150dp"
     android:layout_margin="8dp"
+<<<<<<< HEAD
     android:background="@drawable/btn_orange"
+=======
+    android:background="@drawable/background_category"
+>>>>>>> c52494fe6a3d80d0a4fe61fcfaed901e57911eec
     android:elevation="3dp">
 
     <ImageView

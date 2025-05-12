@@ -42,10 +42,17 @@ public class CheckOutAdapter extends RecyclerView.Adapter<CheckOutAdapter.ViewHo
         NumberFormat en = NumberFormat.getInstance(localeEN);
 
         Glide.with(holder.itemView.getContext())
+<<<<<<< HEAD
                 .load(cart.getProduct().getProductImage().get(0).getUrl_Image())
                 .into(holder.ivProductImage);
 
         holder.tvProductName.setText(cart.getProduct().getProduct_Name());
+=======
+                .load(cart.getProduct().getProductImages().get(0).getImageUrl())
+                .into(holder.ivProductImage);
+
+        holder.tvProductName.setText(cart.getProduct().getProductName());
+>>>>>>> c52494fe6a3d80d0a4fe61fcfaed901e57911eec
         holder.tvProductPrice.setText(en.format(cart.getProduct().getPrice()));
         holder.tvCount.setText(cart.getCount()+"");
         holder.tvTotalPrice.setText(en.format(cart.getCount() * cart.getProduct().getPrice()));

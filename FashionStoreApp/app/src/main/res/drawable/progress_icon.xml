@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?xml version="1.0" encoding="utf-8"?>
 <layer-list xmlns:android="http://schemas.android.com/apk/res/android" >
     <item>
@@ -9,4 +10,17 @@
             android:pivotY="50%"
             android:toDegrees="360" />
     </item>
+=======
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item>
+        <rotate
+            android:drawable="@drawable/circle_icon_app"
+            android:fillAfter="true"
+            android:fromDegrees="0"
+            android:pivotX="50%"
+            android:pivotY="50%"
+            android:toDegrees="360" />
+    </item>
+>>>>>>> c52494fe6a3d80d0a4fe61fcfaed901e57911eec
 </layer-list>

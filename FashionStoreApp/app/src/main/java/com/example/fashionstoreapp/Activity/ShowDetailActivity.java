@@ -81,7 +81,11 @@ public class ShowDetailActivity extends AppCompatActivity {
 
     private void LoadProduct() {
         LoadImage();
+<<<<<<< HEAD
         tvTitle.setText(product.getProduct_Name());
+=======
+        tvTitle.setText(product.getProductName());
+>>>>>>> c52494fe6a3d80d0a4fe61fcfaed901e57911eec
         tvdescription.setText(product.getDescription());
         Locale localeEN = new Locale("en", "EN");
         NumberFormat en = NumberFormat.getInstance(localeEN);
@@ -96,7 +100,11 @@ public class ShowDetailActivity extends AppCompatActivity {
     private void LoadImage() {
         SliderView sliderView = findViewById(R.id.imageSlider);
 
+<<<<<<< HEAD
         SliderAdapter adapter = new SliderAdapter(ShowDetailActivity.this, product.getProductImage());
+=======
+        SliderAdapter adapter = new SliderAdapter(ShowDetailActivity.this, product.getProductImages());
+>>>>>>> c52494fe6a3d80d0a4fe61fcfaed901e57911eec
 
         sliderView.setSliderAdapter(adapter);
 

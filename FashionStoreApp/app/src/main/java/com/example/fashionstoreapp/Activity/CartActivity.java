@@ -137,4 +137,12 @@ public class CartActivity extends AppCompatActivity implements CartItemInterface
         }
         tvTotalPrice.setText(en.format(total));
     }
+<<<<<<< HEAD
+=======
+
+    @Override
+    public void onClickUpdatePrice(double price) {
+
+    }
+>>>>>>> c52494fe6a3d80d0a4fe61fcfaed901e57911eec
 }

@@ -66,7 +66,11 @@ public class LoginActivity extends AppCompatActivity {
 
     private void tvAdminClick() {
         tvAdmin.setOnClickListener(v -> {
+<<<<<<< HEAD
             startActivity(new Intent(LoginActivity.this, AdminActivity.class));
+=======
+            startActivity(new Intent(LoginActivity.this, MainActivity.class));
+>>>>>>> c52494fe6a3d80d0a4fe61fcfaed901e57911eec
         });
     }
 
@@ -104,7 +108,15 @@ public class LoginActivity extends AppCompatActivity {
                     user = response.body();
                     if (user!=null){
                         Toast.makeText(LoginActivity.this,"Login Successfully", Toast.LENGTH_LONG).show();
+<<<<<<< HEAD
                         ObjectSharedPreferences.saveObjectToSharedPreference(LoginActivity.this, "User", "MODE_PRIVATE", user);
+=======
+
+
+                            ObjectSharedPreferences.saveObjectToSharedPreference(LoginActivity.this, "User", "MODE_PRIVATE", user);
+
+
+>>>>>>> c52494fe6a3d80d0a4fe61fcfaed901e57911eec
                         if(user.getAddress()!=null && user.getPhone_Number()!=null){
                             Address address = new Address(user.getUser_Name(), user.getPhone_Number(), user.getAddress());
                             ObjectSharedPreferences.saveObjectToSharedPreference(LoginActivity.this, "address", "MODE_PRIVATE", address);

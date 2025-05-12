@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?xml version="1.0" encoding="utf-8"?>
 <selector xmlns:android="http://schemas.android.com/apk/res/android">
 <item>
@@ -6,4 +7,14 @@
         <corners android:radius="22dp"/>
     </shape>
 </item>
+=======
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+<item>
+    <shape android:shape="rectangle">
+        <solid android:color="#F1F1F1"/>
+        <corners android:radius="22dp"/>
+    </shape>
+</item>
+>>>>>>> c52494fe6a3d80d0a4fe61fcfaed901e57911eec
 </selector>

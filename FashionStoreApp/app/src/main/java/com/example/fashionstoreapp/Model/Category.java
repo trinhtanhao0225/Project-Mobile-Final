@@ -11,6 +11,7 @@ public class Category implements Serializable {
 	@Expose
 	private int id;
 
+<<<<<<< HEAD
 	@SerializedName("category_Name")
 	@Expose
 	private String category_Name;
@@ -20,6 +21,19 @@ public class Category implements Serializable {
 	private String category_Image;
 	private List<Product> product;
 
+=======
+	@SerializedName("category_name")
+	@Expose
+	private String category_Name;
+
+	@SerializedName("category_image")
+	@Expose
+	private String category_Image;
+	private List<Product> product;
+	public Category(){
+
+	}
+>>>>>>> c52494fe6a3d80d0a4fe61fcfaed901e57911eec
 	public Category(int id, String category_Name, String category_Image, List<Product> product) {
 		this.id = id;
 		this.category_Name = category_Name;
